@@ -1,149 +1,157 @@
 <!DOCTYPE html>
-
 <html lang="en">
-<head>
-<meta charset="utf-8"/>
-<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<link href="../img/favicon.ico" rel="shortcut icon"/>
-<title>Endocrinology - MediWiki</title>
-<link href="../css/bootstrap.min.css" rel="stylesheet"/>
-<link href="../css/font-awesome.min.css" rel="stylesheet"/>
-<link href="../css/base.css" rel="stylesheet"/>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/color-brewer.min.css" rel="stylesheet"/>
-<script defer="" src="../js/jquery-1.10.2.min.js"></script>
-<script defer="" src="../js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
-</head>
-<body>
-<div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
-<div class="container">
-<a class="navbar-brand" href="..">MediWiki</a>
-<!-- Expander button -->
-<button class="navbar-toggler" data-target="#navbar-collapse" data-toggle="collapse" type="button">
-<span class="navbar-toggler-icon"></span>
-</button>
-<!-- Expanded navigation -->
-<div class="navbar-collapse collapse" id="navbar-collapse">
-<!-- Main navigation -->
-<ul class="nav navbar-nav">
-<li class="navitem">
-<a class="nav-link" href="../Basic%20Clinical%20Sciences.html">Basic Clinical Sciences</a>
-</li>
-<li class="navitem">
-<a class="nav-link" href="../Internal%20Medicine.html">Internal Medicine</a>
-</li>
-<li class="navitem">
-<a class="nav-link" href="../Surgery.html">Surgery</a>
-</li>
-<li class="navitem">
-<a class="nav-link" href="../Psychiatry.html">Psychiatry</a>
-</li>
-<li class="navitem">
-<a class="nav-link" href="../Critical%20Care.html">Critical Care</a>
-</li>
-</ul>
-<ul class="nav navbar-nav ml-auto">
-<li class="nav-item">
-<a class="nav-link" data-target="#mkdocs_search_modal" data-toggle="modal" href="#">
-<i class="fa fa-search"></i> Search
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Endocrinology - MediWiki</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/color-brewer.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">MediWiki</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../Basic%20Clinical%20Sciences.html" class="nav-link">Basic Clinical Sciences</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../Internal%20Medicine.html" class="nav-link">Internal Medicine</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../Surgery.html" class="nav-link">Surgery</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../Psychiatry.html" class="nav-link">Psychiatry</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../Critical%20Care.html" class="nav-link">Critical Care</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
                             </a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="Dermatology.html" rel="prev">
-<i class="fa fa-arrow-left"></i> Previous
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="Dermatology.html" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
                                 </a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="Gastroenterology.html" rel="next">
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="Gastroenterology.html" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
-</a>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="container">
-<div class="row">
-<div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
-<div class="navbar-header">
-<button class="navbar-toggler collapsed" data-target="#toc-collapse" data-toggle="collapse" title="Table of Contents" type="button">
-<span class="fa fa-angle-down"></span>
-</button>
-</div>
-<div class="navbar-collapse collapse card bg-secondary" id="toc-collapse">
-<ul class="nav flex-column">
-<li class="nav-item" data-level="1"><a class="nav-link" href="#endocrinology">Endocrinology</a>
-<ul class="nav flex-column">
-<li class="nav-item" data-level="2"><a class="nav-link" href="#glucose-metabolism-disorders-and-pancreatic-disorders">Glucose metabolism disorders and pancreatic disorders</a>
-<ul class="nav flex-column">
-</ul>
-</li>
-<li class="nav-item" data-level="2"><a class="nav-link" href="#pituitary-gland-disorders">Pituitary gland disorders</a>
-<ul class="nav flex-column">
-</ul>
-</li>
-<li class="nav-item" data-level="2"><a class="nav-link" href="#adrenal-gland-disorders">Adrenal gland disorders</a>
-<ul class="nav flex-column">
-</ul>
-</li>
-<li class="nav-item" data-level="2"><a class="nav-link" href="#thyroid-gland-disorders">Thyroid gland disorders</a>
-<ul class="nav flex-column">
-</ul>
-</li>
-<li class="nav-item" data-level="2"><a class="nav-link" href="#parathyroid-gland-disorders">Parathyroid gland disorders</a>
-<ul class="nav flex-column">
-</ul>
-</li>
-<li class="nav-item" data-level="2"><a class="nav-link" href="#reproductive-disorders">Reproductive disorders</a>
-<ul class="nav flex-column">
-</ul>
-</li>
-<li class="nav-item" data-level="2"><a class="nav-link" href="#transgender-hormone-therapy-management">Transgender Hormone Therapy Management</a>
-<ul class="nav flex-column">
-</ul>
-</li>
-<li class="nav-item" data-level="2"><a class="nav-link" href="#calcium-and-bone-disorders">Calcium and bone disorders</a>
-<ul class="nav flex-column">
-</ul>
-</li>
-<li class="nav-item" data-level="2"><a class="nav-link" href="#investigations">Investigations</a>
-<ul class="nav flex-column">
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</div>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#endocrinology" class="nav-link">Endocrinology</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#glucose-metabolism-disorders-and-pancreatic-disorders" class="nav-link">Glucose metabolism disorders and pancreatic disorders</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#pituitary-gland-disorders" class="nav-link">Pituitary gland disorders</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#adrenal-gland-disorders" class="nav-link">Adrenal gland disorders</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#thyroid-gland-disorders" class="nav-link">Thyroid gland disorders</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#parathyroid-gland-disorders" class="nav-link">Parathyroid gland disorders</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#reproductive-disorders" class="nav-link">Reproductive disorders</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#transgender-hormone-therapy-management" class="nav-link">Transgender Hormone Therapy Management</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#calcium-and-bone-disorders" class="nav-link">Calcium and bone disorders</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#investigations" class="nav-link">Investigations</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
 </div></div>
-<div class="col-md-9" role="main">
+                    <div class="col-md-9" role="main">
+
 <h1 id="endocrinology">Endocrinology</h1>
 <h2 id="glucose-metabolism-disorders-and-pancreatic-disorders">Glucose metabolism disorders and pancreatic disorders</h2>
 <ol>
-<li><a href="Diabetes%20mellitus.md">Diabetes mellitus</a><ol>
-<li><a href="Type%20I%20Diabetes.md">Type I Diabetes</a></li>
-<li><a href="Type%20II%20Diabetes.md">Type II Diabetes</a></li>
-<li>[[Gestational Diabetes]]</li>
+<li><a href="Endocrinology/Diabetes%20Mellitus.html">Diabetes Mellitus</a><ol>
+<li><a href="Endocrinology/Type%20I%20Diabetes.html">Type I Diabetes</a></li>
+<li><a href="Endocrinology/Type%20II%20Diabetes.html">Type II Diabetes</a></li>
+<li>[<a href="Endocrinology/Gestational%20Diabetes.html">Gestational Diabetes</a></li>
 </ol>
 </li>
 <li>Drug induced hyperglycaemia</li>
 <li>Diabetes complications<ol>
-<li><a href="Diabetic%20ketoacidosis%20(DKA).md">Diabetic ketoacidosis (DKA)</a></li>
-<li>[[Hyperglycaemic Hyperosmolar syndrome]]</li>
+<li><a href="Endocrinology/Diabetic%20Ketoacidosis%20%28DKA%29.html">Diabetic Ketoacidosis (DKA)</a></li>
+<li>[<a href="Endocrinology/Hyperglycaemic%20Hyperosmolar%20syndrome.html">Hyperglycaemic Hyperosmolar syndrome</a></li>
 </ol>
 </li>
 <li><a href="Endocrinology/Hypoglycaemia.html">Hypoglycaemia</a></li>
 <li><a href="Endocrinology/Insulinoma.html">Insulinoma</a></li>
 <li><a href="Endocrinology/Glucagonoma.html">Glucagonoma</a></li>
 <li><a href="Endocrinology/Somatostatinoma.html">Somatostatinoma</a></li>
-<li><a href="VIPoma%20(Verner-Morrison).md">VIPoma (Verner-Morrison)</a></li>
-<li><a href="Zollinger-Ellison%20Syndrome%20(Gastrinoma).md">Zollinger-Ellison Syndrome (Gastrinoma)</a></li>
-<li><a href="Multiple%20Endocrine%20Neoplasia%20(MEN).md">Multiple Endocrine Neoplasia (MEN)</a></li>
+<li><a href="Endocrinology/VIPoma%20%28Verner-Morrison%29.html">VIPoma (Verner-Morrison)</a></li>
+<li><a href="Endocrinology/Zollinger-Ellison%20Syndrome%20%28Gastrinoma%29.html">Zollinger-Ellison Syndrome (Gastrinoma)</a></li>
+<li><a href="Endocrinology/Multiple%20Endocrine%20Neoplasia%20%28MEN%29.html">Multiple Endocrine Neoplasia (MEN)</a></li>
 </ol>
 <h2 id="pituitary-gland-disorders">Pituitary gland disorders</h2>
 <ol>
-<li><a href="Pituitary%20Adenoma.md">Pituitary Adenoma</a><ul>
+<li><a href="Endocrinology/Pituitary%20Adenoma.html">Pituitary Adenoma</a><ul>
 <li><a href="Endocrinology/Craniopharyngioma.html">Craniopharyngioma</a></li>
 </ul>
 </li>
@@ -155,27 +163,27 @@
 <li>Pituitary hormone excess<ol>
 <li><a href="Endocrinology/Hyperprolactinaemia.html">Hyperprolactinaemia</a></li>
 <li><a href="Endocrinology/Acromegaly.html">Acromegaly</a></li>
-<li><a href="Diabetes%20insipidus.md">Diabetes insipidus</a></li>
-<li>[[Syndrome of Inappropriate Secretion of Antidiuretic Hormone (SIADH)]]</li>
+<li><a href="Endocrinology/Diabetes%20insipidus.html">Diabetes insipidus</a></li>
+<li>[<a href="Endocrinology/Syndrome%20of%20Inappropriate%20Secretion%20of%20Antidiuretic%20Hormone%20%28SIADH%29.html">Syndrome of Inappropriate Secretion of Antidiuretic Hormone (SIADH)</a></li>
 </ol>
 </li>
 </ol>
 <h2 id="adrenal-gland-disorders">Adrenal gland disorders</h2>
 <ol>
 <li>Adrenal hormone excess<ol>
-<li>[[Cushings Syndrome]]</li>
+<li>[<a href="Endocrinology/Cushings%20Syndrome.html">Cushings Syndrome</a></li>
 <li>Cushing's disease</li>
 <li>Central diabetes insipidus</li>
-<li>[[Primary hyperaldosteronism (Conn syndrome)]]</li>
-<li>[[Pheochromocytoma]]</li>
-<li><a href="Androgen%20producing%20adrenal%20tumours.md">Androgen producing adrenal tumours</a></li>
+<li>[<a href="Endocrinology/Primary%20hyperaldosteronism%20%28Conn%20syndrome%29.html">Primary hyperaldosteronism (Conn syndrome)</a></li>
+<li>[[Endocrinology/Pheochromocytoma.md]]</li>
+<li><a href="Endocrinology/Androgen%20producing%20adrenal%20tumours.html">Androgen producing adrenal tumours</a></li>
 </ol>
 </li>
 <li>Adrenal hormone deficiencies<ol>
 <li>Adrenal insufficiency<ol>
-<li><a href="Addison%20disease.md">Addison disease</a></li>
-<li><a href="Secondary%20adrenal%20insufficiency.md">Secondary adrenal insufficiency</a></li>
-<li>[[Adrenal crisis]]</li>
+<li><a href="Endocrinology/Addison%20disease.html">Addison disease</a></li>
+<li><a href="Endocrinology/Secondary%20adrenal%20insufficiency.html">Secondary adrenal insufficiency</a></li>
+<li>[<a href="Endocrinology/Adrenal%20crisis.html">Adrenal crisis</a></li>
 </ol>
 </li>
 </ol>
@@ -184,10 +192,10 @@
 </ol>
 <h2 id="thyroid-gland-disorders">Thyroid gland disorders</h2>
 <ol>
-<li><a href="Thyroid%20nodules.md">Thyroid nodules</a><ol>
+<li><a href="Endocrinology/Thyroid%20nodules.html">Thyroid nodules</a><ol>
 <li>Multinodular Goiter</li>
 <li>Diffuse goiter</li>
-<li>[[Thyroid cancer]]</li>
+<li>[<a href="Endocrinology/Thyroid%20cancer.html">Thyroid cancer</a></li>
 </ol>
 </li>
 <li>Thyroid function disorders<ol>
@@ -196,10 +204,10 @@
 <li>Toxic adenome</li>
 <li>Destructive Thyroiditis</li>
 <li><a href="Endocrinology/Thyroiditis.html">Thyroiditis</a><ol>
-<li><a href="Subacute%20(Viral)%20Thyroiditis%20(Subacute%20granulomatous%20thyroiditis).md">Subacute (Viral) Thyroiditis (Subacute granulomatous thyroiditis)</a></li>
-<li><a href="Subacute%20Lymphocytic%20Thyroiditis%20(painless%20thyroiditis).md">Subacute Lymphocytic Thyroiditis (painless thyroiditis)</a></li>
-<li><a href="Chronic%20Lymphocytic%20Thyroiditis.md">Chronic Lymphocytic Thyroiditis</a></li>
-<li><a href="Fibrous%20Thyroiditis%20(Riedel%20thyroiditis).md">Fibrous Thyroiditis (Riedel thyroiditis)</a></li>
+<li><a href="Endocrinology/Subacute%20%28Viral%29%20Thyroiditis%20%28Subacute%20granulomatous%20thyroiditis%29.html">Subacute (Viral) Thyroiditis (Subacute granulomatous thyroiditis)</a></li>
+<li><a href="Endocrinology/Subacute%20Lymphocytic%20Thyroiditis%20%28painless%20thyroiditis%29.html">Subacute Lymphocytic Thyroiditis (painless thyroiditis)</a></li>
+<li><a href="Endocrinology/Chronic%20Lymphocytic%20Thyroiditis.html">Chronic Lymphocytic Thyroiditis</a></li>
+<li><a href="Endocrinology/Fibrous%20Thyroiditis%20%28Riedel%20thyroiditis%29.html">Fibrous Thyroiditis (Riedel thyroiditis)</a></li>
 </ol>
 </li>
 </ol>
@@ -212,15 +220,15 @@
 <li>Sick Euthyroid Syndrome</li>
 <li>Thyroid function and dysfunction in pregnancy</li>
 <li>Thyroid emergencies<ol>
-<li><a href="Thyroid%20storm.md">Thyroid storm</a></li>
-<li><a href="Myxedema%20Coma.md">Myxedema Coma</a></li>
+<li><a href="Endocrinology/Thyroid%20storm.html">Thyroid storm</a></li>
+<li><a href="Endocrinology/Myxedema%20Coma.html">Myxedema Coma</a></li>
 </ol>
 </li>
 </ol>
 <h2 id="parathyroid-gland-disorders">Parathyroid gland disorders</h2>
 <ol>
 <li>Hyperparathyroid<ol>
-<li>[[Primary hyperparathyroidism]]</li>
+<li>[<a href="Endocrinology/Primary%20hyperparathyroidism.html">Primary hyperparathyroidism</a></li>
 <li>Secondary hyperparathyroidism</li>
 <li>Tertiary hyperparathyroidism</li>
 <li>Malignant hyperparathyroidism</li>
@@ -270,82 +278,88 @@
 </ol>
 <h2 id="investigations">Investigations</h2>
 <ol>
-<li><a href="Fine%20needle%20aspiration%20(FNA).md">Fine needle aspiration (FNA)</a></li>
+<li><a href="Endocrinology/Fine%20needle%20aspiration%20%28FNA%29.html">Fine needle aspiration (FNA)</a></li>
 </ol></div>
-</div>
-</div>
-<footer class="col-md-12">
-<hr/>
-<p>Copyright © 2021 Weber Liu</p>
-</footer>
-<script>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyright &copy; 2021 Weber Liu</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/jquery-3.6.0.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script>
             var base_url = "..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-<script defer="" src="../js/base.js"></script>
-<script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<script defer="" src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<script defer="" src="../search/main.js"></script>
-<div aria-hidden="true" aria-labelledby="searchModalLabel" class="modal" id="mkdocs_search_modal" role="dialog" tabindex="-1">
-<div class="modal-dialog modal-lg">
-<div class="modal-content">
-<div class="modal-header">
-<h4 class="modal-title" id="searchModalLabel">Search</h4>
-<button class="close" data-dismiss="modal" type="button"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+        <script src="../js/base.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
 </div>
-<div class="modal-body">
-<p>From here you can search these documents. Enter your search terms below.</p>
-<form>
-<div class="form-group">
-<input class="form-control" id="mkdocs-search-query" placeholder="Search..." title="Type search term here" type="search"/>
-</div>
-</form>
-<div data-no-results-text="No results found" id="mkdocs-search-results"></div>
-</div>
-<div class="modal-footer">
-</div>
-</div>
-</div>
-</div><div aria-hidden="true" aria-labelledby="keyboardModalLabel" class="modal" id="mkdocs_keyboard_modal" role="dialog" tabindex="-1">
-<div class="modal-dialog">
-<div class="modal-content">
-<div class="modal-header">
-<h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
-<button class="close" data-dismiss="modal" type="button"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
-</div>
-<div class="modal-body">
-<table class="table">
-<thead>
-<tr>
-<th style="width: 20%;">Keys</th>
-<th>Action</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="help shortcut"><kbd>?</kbd></td>
-<td>Open this help</td>
-</tr>
-<tr>
-<td class="next shortcut"><kbd>n</kbd></td>
-<td>Next page</td>
-</tr>
-<tr>
-<td class="prev shortcut"><kbd>p</kbd></td>
-<td>Previous page</td>
-</tr>
-<tr>
-<td class="search shortcut"><kbd>s</kbd></td>
-<td>Search</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="modal-footer">
-</div>
-</div>
-</div>
-</div>
-</body>
+
+    </body>
 </html>

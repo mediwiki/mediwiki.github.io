@@ -1,119 +1,132 @@
 <!DOCTYPE html>
-
 <html lang="en">
-<head>
-<meta charset="utf-8"/>
-<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<link href="../../../img/favicon.ico" rel="shortcut icon"/>
-<title>Ischemic stroke - MediWiki</title>
-<link href="../../../css/bootstrap.min.css" rel="stylesheet"/>
-<link href="../../../css/font-awesome.min.css" rel="stylesheet"/>
-<link href="../../../css/base.css" rel="stylesheet"/>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/color-brewer.min.css" rel="stylesheet"/>
-<script defer="" src="../../../js/jquery-1.10.2.min.js"></script>
-<script defer="" src="../../../js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
-</head>
-<body>
-<div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
-<div class="container">
-<a class="navbar-brand" href="../../..">MediWiki</a>
-<!-- Expander button -->
-<button class="navbar-toggler" data-target="#navbar-collapse" data-toggle="collapse" type="button">
-<span class="navbar-toggler-icon"></span>
-</button>
-<!-- Expanded navigation -->
-<div class="navbar-collapse collapse" id="navbar-collapse">
-<!-- Main navigation -->
-<ul class="nav navbar-nav">
-<li class="navitem">
-<a class="nav-link" href="../../../Basic%20Clinical%20Sciences.html">Basic Clinical Sciences</a>
-</li>
-<li class="navitem">
-<a class="nav-link" href="../../../Internal%20Medicine.html">Internal Medicine</a>
-</li>
-<li class="navitem">
-<a class="nav-link" href="../../../Surgery.html">Surgery</a>
-</li>
-<li class="navitem">
-<a class="nav-link" href="../../../Psychiatry.html">Psychiatry</a>
-</li>
-<li class="navitem">
-<a class="nav-link" href="../../../Critical%20Care.html">Critical Care</a>
-</li>
-</ul>
-<ul class="nav navbar-nav ml-auto">
-<li class="nav-item">
-<a class="nav-link" data-target="#mkdocs_search_modal" data-toggle="modal" href="#">
-<i class="fa fa-search"></i> Search
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>Ischemic stroke - MediWiki</title>
+        <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/color-brewer.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../../..">MediWiki</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../../../Basic%20Clinical%20Sciences.html" class="nav-link">Basic Clinical Sciences</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../../Internal%20Medicine.html" class="nav-link">Internal Medicine</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../../Surgery.html" class="nav-link">Surgery</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../../Psychiatry.html" class="nav-link">Psychiatry</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../../Critical%20Care.html" class="nav-link">Critical Care</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
                             </a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="Intracranial%20Haemorrhage.html" rel="prev">
-<i class="fa fa-arrow-left"></i> Previous
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="Intracranial%20Haemorrhage.html" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
                                 </a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="Lacunar%20infarct.html" rel="next">
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="Ischemic%20stroke%20recanalisation.html" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
-</a>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="container">
-<div class="row">
-<div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
-<div class="navbar-header">
-<button class="navbar-toggler collapsed" data-target="#toc-collapse" data-toggle="collapse" title="Table of Contents" type="button">
-<span class="fa fa-angle-down"></span>
-</button>
-</div>
-<div class="navbar-collapse collapse card bg-secondary" id="toc-collapse">
-<ul class="nav flex-column">
-<li class="nav-item" data-level="1"><a class="nav-link" href="#ischemic-stroke">Ischemic stroke</a>
-<ul class="nav flex-column">
-<li class="nav-item" data-level="2"><a class="nav-link" href="#background">Background</a>
-<ul class="nav flex-column">
-</ul>
-</li>
-<li class="nav-item" data-level="2"><a class="nav-link" href="#aetiology-and-pathophysiology">Aetiology and Pathophysiology</a>
-<ul class="nav flex-column">
-</ul>
-</li>
-<li class="nav-item" data-level="2"><a class="nav-link" href="#clinical-features">Clinical features</a>
-<ul class="nav flex-column">
-</ul>
-</li>
-<li class="nav-item" data-level="2"><a class="nav-link" href="#diagnosis-and-investigation">Diagnosis and Investigation</a>
-<ul class="nav flex-column">
-</ul>
-</li>
-<li class="nav-item" data-level="2"><a class="nav-link" href="#examination">Examination</a>
-<ul class="nav flex-column">
-</ul>
-</li>
-<li class="nav-item" data-level="2"><a class="nav-link" href="#management">Management</a>
-<ul class="nav flex-column">
-</ul>
-</li>
-<li class="nav-item" data-level="2"><a class="nav-link" href="#figures">Figures</a>
-<ul class="nav flex-column">
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</div>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#ischemic-stroke" class="nav-link">Ischemic stroke</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#background" class="nav-link">Background</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#aetiology-and-pathophysiology" class="nav-link">Aetiology and Pathophysiology</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#pathology" class="nav-link">Pathology</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#clinical-features" class="nav-link">Clinical features</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#diagnosis-and-investigation" class="nav-link">Diagnosis and Investigation</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#examination" class="nav-link">Examination</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#management" class="nav-link">Management</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#figures" class="nav-link">Figures</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
 </div></div>
-<div class="col-md-9" role="main">
+                    <div class="col-md-9" role="main">
+
 <h1 id="ischemic-stroke">Ischemic stroke</h1>
 <h2 id="background">Background</h2>
 <h2 id="aetiology-and-pathophysiology">Aetiology and Pathophysiology</h2>
 <ol>
+<li>Vessels<ol>
 <li>Large vessel atherosclerosis - most common<ul>
 <li>Vessels become sclerotid<ul>
 <li>Extracranial: Carotid artery, vertebral artery</li>
@@ -121,25 +134,32 @@
 </ul>
 </li>
 <li>Plaque rupture → artery-to-artery embolism</li>
+<li>Vascular dissection</li>
 </ul>
 </li>
-<li>Cardioembolic stroke<ul>
+<li>Small vessel disease</li>
+</ol>
+</li>
+<li>Blood - hypercoagulable states</li>
+<li>Cardiac<ol>
+<li>Arrhythmias - AF (Cardioembolic)<ul>
 <li>Atrial fibrillation (most common) or ventricular thrombus (e.g. post-MI or reduced EF) or PFO or severe valvular disease (E.g. rheumatic disease, IE, mechanical heart valves)</li>
 </ul>
 </li>
-<li>Lacunar stroke (small subcortical infarcts)<ul>
-<li>small emboli &lt;1.5mm in penetrating arteries arising from large cerebral arteries</li>
-<li>main risk factor is hypertension</li>
-</ul>
+<li>Structural defects - PFO, atrial septal aneurysms</li>
+</ol>
 </li>
 <li>Embolic stroke of undetermined source (formerly cryptogenic stroke)<ul>
 <li>possibly due to undiagnosed paroxysmal atrial fibrillation</li>
 </ul>
 </li>
 </ol>
-<p>Mechanism of cell death</p>
+<h2 id="pathology">Pathology</h2>
 <ul>
+<li>Mechanism of cell death<ul>
 <li>Cerebral ischemia -&gt; dysfunction of cellular function -&gt; excitatory and other neuropeptide release -&gt; Ca2+ flux augmented -&gt; cell death -&gt; neurological deficit</li>
+</ul>
+</li>
 </ul>
 <h2 id="clinical-features">Clinical features</h2>
 <ol>
@@ -195,11 +215,12 @@
 </ul>
 </li>
 </ol>
-<p><img alt="" src="figs/Pasted%20image%2020220702185605.png"/></p>
+<p><img alt="" src="../../../figures/Pasted%20image%2020220702185605.png" /></p>
 <h2 id="management">Management</h2>
 <ol>
 <li>Medical support</li>
-<li>Intravenous Thrombolysis<ul>
+<li><a href="Ischemic%20stroke%20recanalisation.html">Ischemic stroke recanalisation</a><ol>
+<li>Intravenous Thrombolysis (<a href="Alteplase.html">Alteplase</a> primary treatment since 1990s)<ul>
 <li>Within 4.5 hours of onset: <a href="../../../BCS/Pharmacology/Targets/Tissue%20Plasminogen%20Activator/Recombinant%20Tissue%20Plasminogen%20Activator.html">Recombinant Tissue Plasminogen Activator</a> (e.g. Alteplase)<ul>
 <li>maximum benefit within 3 hours from studies</li>
 <li>
@@ -223,11 +244,13 @@
 <li>Dosage: rtPA - 0.9mg/kg to maximum 90mg, 10% bolus over 1 minute, remainder over 1 hour</li>
 </ul>
 </li>
-<li>Endovascular Revascularisation<ul>
+<li><a href="Mechanical%20thrombectomy%20%28Endovascular%20clot%20retrieval%29.html">Mechanical thrombectomy (Endovascular clot retrieval)</a><ul>
 <li>Offered within 24h of stroke onset or clinically suspected large-vessel occlusion</li>
 <li>Prompt CTA (Arch to CoW) is necessary to determine if indicated</li>
 <li>30% more likely to achieve functional independence with mechanical embolectomy</li>
 </ul>
+</li>
+</ol>
 </li>
 <li>Antithrombotic therapy<ol>
 <li>Start dual <a href="../../../BCS/Pharmacology/Classes/Antiplatelet%20agents.html">Antiplatelet agents</a> within 24h - <em>note that aspirin should be started &gt; 24h if they receive thrombolysis</em><ul>
@@ -267,81 +290,87 @@
 <li><strong>Refer to Neurology/stroke team and admit patient</strong></li>
 </ol>
 <h2 id="figures">Figures</h2>
-<p><img alt="" src="figs/Pasted%20image%2020220702192723.png"/></p></div>
-</div>
-</div>
-<footer class="col-md-12">
-<hr/>
-<p>Copyright © 2021 Weber Liu</p>
-</footer>
-<script>
+<p><img alt="" src="../../../figures/Pasted%20image%2020220702192723.png" /></p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyright &copy; 2021 Weber Liu</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../../js/jquery-3.6.0.min.js"></script>
+        <script src="../../../js/bootstrap.min.js"></script>
+        <script>
             var base_url = "../../..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-<script defer="" src="../../../js/base.js"></script>
-<script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<script defer="" src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<script defer="" src="../../../search/main.js"></script>
-<div aria-hidden="true" aria-labelledby="searchModalLabel" class="modal" id="mkdocs_search_modal" role="dialog" tabindex="-1">
-<div class="modal-dialog modal-lg">
-<div class="modal-content">
-<div class="modal-header">
-<h4 class="modal-title" id="searchModalLabel">Search</h4>
-<button class="close" data-dismiss="modal" type="button"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+        <script src="../../../js/base.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <script src="../../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
 </div>
-<div class="modal-body">
-<p>From here you can search these documents. Enter your search terms below.</p>
-<form>
-<div class="form-group">
-<input class="form-control" id="mkdocs-search-query" placeholder="Search..." title="Type search term here" type="search"/>
-</div>
-</form>
-<div data-no-results-text="No results found" id="mkdocs-search-results"></div>
-</div>
-<div class="modal-footer">
-</div>
-</div>
-</div>
-</div><div aria-hidden="true" aria-labelledby="keyboardModalLabel" class="modal" id="mkdocs_keyboard_modal" role="dialog" tabindex="-1">
-<div class="modal-dialog">
-<div class="modal-content">
-<div class="modal-header">
-<h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
-<button class="close" data-dismiss="modal" type="button"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
-</div>
-<div class="modal-body">
-<table class="table">
-<thead>
-<tr>
-<th style="width: 20%;">Keys</th>
-<th>Action</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="help shortcut"><kbd>?</kbd></td>
-<td>Open this help</td>
-</tr>
-<tr>
-<td class="next shortcut"><kbd>n</kbd></td>
-<td>Next page</td>
-</tr>
-<tr>
-<td class="prev shortcut"><kbd>p</kbd></td>
-<td>Previous page</td>
-</tr>
-<tr>
-<td class="search shortcut"><kbd>s</kbd></td>
-<td>Search</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="modal-footer">
-</div>
-</div>
-</div>
-</div>
-</body>
+
+    </body>
 </html>

@@ -1,162 +1,454 @@
 <!DOCTYPE html>
-
 <html lang="en">
-<head>
-<meta charset="utf-8"/>
-<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<link href="../../../img/favicon.ico" rel="shortcut icon"/>
-<title>Antibiotics - MediWiki</title>
-<link href="../../../css/bootstrap.min.css" rel="stylesheet"/>
-<link href="../../../css/font-awesome.min.css" rel="stylesheet"/>
-<link href="../../../css/base.css" rel="stylesheet"/>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/color-brewer.min.css" rel="stylesheet"/>
-<script defer="" src="../../../js/jquery-1.10.2.min.js"></script>
-<script defer="" src="../../../js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
-</head>
-<body>
-<div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
-<div class="container">
-<a class="navbar-brand" href="../../..">MediWiki</a>
-<!-- Expander button -->
-<button class="navbar-toggler" data-target="#navbar-collapse" data-toggle="collapse" type="button">
-<span class="navbar-toggler-icon"></span>
-</button>
-<!-- Expanded navigation -->
-<div class="navbar-collapse collapse" id="navbar-collapse">
-<!-- Main navigation -->
-<ul class="nav navbar-nav">
-<li class="navitem">
-<a class="nav-link" href="../../../Basic%20Clinical%20Sciences.html">Basic Clinical Sciences</a>
-</li>
-<li class="navitem">
-<a class="nav-link" href="../../../Internal%20Medicine.html">Internal Medicine</a>
-</li>
-<li class="navitem">
-<a class="nav-link" href="../../../Surgery.html">Surgery</a>
-</li>
-<li class="navitem">
-<a class="nav-link" href="../../../Psychiatry.html">Psychiatry</a>
-</li>
-<li class="navitem">
-<a class="nav-link" href="../../../Critical%20Care.html">Critical Care</a>
-</li>
-</ul>
-<ul class="nav navbar-nav ml-auto">
-<li class="nav-item">
-<a class="nav-link" data-target="#mkdocs_search_modal" data-toggle="modal" href="#">
-<i class="fa fa-search"></i> Search
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>Antibiotics - MediWiki</title>
+        <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/color-brewer.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../../..">MediWiki</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../../../Basic%20Clinical%20Sciences.html" class="nav-link">Basic Clinical Sciences</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../../Internal%20Medicine.html" class="nav-link">Internal Medicine</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../../Surgery.html" class="nav-link">Surgery</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../../Psychiatry.html" class="nav-link">Psychiatry</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../../Critical%20Care.html" class="nav-link">Critical Care</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
                             </a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="Antiarrhythmic%20agents.html" rel="prev">
-<i class="fa fa-arrow-left"></i> Previous
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="Antiarrhythmic%20agents.html" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
                                 </a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="Anticholinergics.html" rel="next">
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="Anticholinergics.html" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
-</a>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="container">
-<div class="row">
-<div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
-<div class="navbar-header">
-<button class="navbar-toggler collapsed" data-target="#toc-collapse" data-toggle="collapse" title="Table of Contents" type="button">
-<span class="fa fa-angle-down"></span>
-</button>
-</div>
-<div class="navbar-collapse collapse card bg-secondary" id="toc-collapse">
-<ul class="nav flex-column">
-<li class="nav-item" data-level="2"><a class="nav-link" href="#tetracycline-antibiotics">Tetracycline antibiotics</a>
-<ul class="nav flex-column">
-</ul>
-</li>
-</ul>
-</div>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#antibiotics" class="nav-link">Antibiotics</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#antibiotics-for-common-infections" class="nav-link">Antibiotics for common infections</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#combinations-with-beta-lactamase-inhibitors" class="nav-link">Combinations with beta lactamase inhibitors</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#penicillin-allergies" class="nav-link">Penicillin allergies</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#beta-lactam-antibiotics" class="nav-link">Beta lactam antibiotics</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#vancomycin-and-its-derivatives" class="nav-link">Vancomycin and its derivatives</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#cephalosporines" class="nav-link">Cephalosporines</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#linezolid" class="nav-link">Linezolid</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#daptomycin" class="nav-link">Daptomycin</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#tmp-smx" class="nav-link">TMP-SMX</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#tetracycline-antibiotics" class="nav-link">Tetracycline antibiotics</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#fluroquinolones" class="nav-link">Fluroquinolones</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
 </div></div>
-<div class="col-md-9" role="main">
-<h2 id="tetracycline-antibiotics">Tetracycline antibiotics</h2></div>
-</div>
-</div>
-<footer class="col-md-12">
-<hr/>
-<p>Copyright © 2021 Weber Liu</p>
-</footer>
-<script>
+                    <div class="col-md-9" role="main">
+
+<h1 id="antibiotics">Antibiotics</h1>
+<h2 id="antibiotics-for-common-infections">Antibiotics for common infections</h2>
+<ul>
+<li>Staphycoccus Aureus - bone, heart, skin, joint<ul>
+<li>MSSA: <ul>
+<li>oxacillin/cloxacillin/nafcillin/dicloxacillin or cefazolin (1st generation cephalosporin)<ul>
+<li>you can use 1st gen cefalosporin if there is a RASH to penicillin<ul>
+<li>cefazolin IV</li>
+<li>cephalexin PO</li>
+</ul>
+</li>
+<li>if you have anaphylaxis to penicillin, CANNOT use cephalosporin</li>
+</ul>
+</li>
+<li>note that ALL cephalosporines will cover a sensitive staphylococcus<ul>
+<li>however no point in using a 3rd/4th generation cephalosporine because it gives extra gram negative coverage (too broad spectrum with no benefit)</li>
+</ul>
+</li>
+<li>failure rate of vancomycin for MSSA is 2x that of oxacillin/nafcillin</li>
+</ul>
+</li>
+<li>MRSA: <ul>
+<li>Severe infection: <ul>
+<li>Vancomycin IV</li>
+<li>linezolid - thrombocytopenia;<ul>
+<li>can cause serotonin syndrome if using MAOi (e.g. psychiatric patient): abdominal pain, sweating, nausea</li>
+<li>PD (selegiline, risegoline) - serotonin syndrome</li>
+</ul>
+</li>
+<li>tedizolid - tedizolid is like linezolid without the most common adverse effect (thrombocytopenia)</li>
+<li>daptomycin - if cannot use vancomycin (due to toxicity) or vancomycin insensitive <ul>
+<li>associated with myopathy and rising CK (Rhabdomyolysis)</li>
+<li>avoid mixing with statins</li>
+</ul>
+</li>
+<li>ceftaroline - only cephalosporine which covers MRSA; also can be used for vancomycin insensitive staph aureus (used by itself or as an adjunct)</li>
+<li>dalbavancin, oritavancin, telavancin - long acting versions of vancomycin<ul>
+<li>can be used as single dose IV medications lasting 1-2 weeks - allows discharge home</li>
+</ul>
+</li>
+<li>tigecycline - derivative of tetracyclines; will not work for MRSA bacteraemia (only for skin and soft tissue)</li>
+</ul>
+</li>
+<li>Minor infections (e.g. impetigo, cellulitis)<ul>
+<li>trimethoprim/sulfamethoxazole - ~70% efficacious</li>
+<li>doxycycline - ~70% efficacious</li>
+<li>clindamycin - ~70% efficacious</li>
+<li>linezolid - both IV and oral<ul>
+<li>best efficacy of oral drugs</li>
+</ul>
+</li>
+<li>tedizolid<ul>
+<li>best efficacy of oral drugs</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>NEVER use tigecycline for bactaraemia</strong> - simply not strong enough (only for skin and soft tissue infections)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Streptococcus / enterococcus<ul>
+<li>all the above drugs can be used for streptococcus too</li>
+<li>Penicillin can be used - penicillin G or VK</li>
+<li>Ampicillin/Amoxicillin </li>
+<li>Infective endocarditis prophylaxis for dental procedures: Bloody procedure, previous endocarditis, prosthetic valves, unrepaired cyanotic heart disease, transplant<ul>
+<li>prophylaxis can be done with amoxicillin</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Gram negative bacilli - E.coli, Enterobacter, Citrobacter, Morganella, Pseudomonas, Serratia, Proteus, Klebsiella<ul>
+<li>lives in bowel/faeces</li>
+<li>Covered by<ul>
+<li>Cephalosporines - cefepime, ceftazidime</li>
+<li>Penicillins - piperacillin, ticarcillin<ul>
+<li>also covers streptococci and anaerobes; but only use if you want to cover gram negative rods</li>
+</ul>
+</li>
+<li>Monobactam - aztreonam<ul>
+<li>no cross-reaction with aztrenam and penicillins</li>
+</ul>
+</li>
+<li>Quinolones - ciprofloxacin, levofloxacin, moxifloxacin, gemifloxacin<ul>
+<li>also excellent pneumococcal coverage</li>
+<li>gemifloxacin also covers pneumococcus</li>
+</ul>
+</li>
+<li>Aminoglycosides - gentamicin, tobramycin, amikacin<ul>
+<li>works synergistically with beta lactam to treat strep and staph<ul>
+<li>beta lactam pokes a hole in the wall of the bacteria and aminioglycoside kills the ribosome</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Carbapenems - Imipenem, Meropenem, Ertapenem, Doripenem<ul>
+<li>should be only used in shocked patients with coverage for steph/staph/gram negative rod</li>
+<li>cannot be used in penicillin anaphylaxis too</li>
+<li>ertapenem is the only carbapenem not covering pseudomonas</li>
+<li>same antianaeobic cover as metronidazole and clindamycin → no point adding</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>note aztreonam and aminoglycosides are used ONLY for gram negatives</li>
+</ul>
+</li>
+<li>ESBL - resistant to cephalosporines and penicillins and aztreonam<ul>
+<li>treat with carbapenems OR ceftolozane-tazobactam OR ceftazidime-avibactam</li>
+<li>polymyxin/colistin - for carbapenem resistant gram negative rods<ul>
+<li>dont use polymyxin systemically (only topically) → can cause renal toxicity (acts like a detergent)</li>
+<li>used as a last line therapy → due to high toxicity</li>
+<li>would be used in failed therapy for ventilator associated pneumonia - strongly active against MDR gram negative rods</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>MRSA quinolone<ul>
+<li>only quinolone which covers MRSA - delafloxacin AND gram negative bacilli</li>
+</ul>
+</li>
+<li>Anaerobes<ul>
+<li>gastrointestinal anaerobes (Bacteroides)<ul>
+<li>metronidazole - abdominal anaerobes<ul>
+<li>not good for mouth</li>
+</ul>
+</li>
+<li>carbapenem, piperacillin, ticarcillin - equal efficacy for abdominal anaerobes as metronidazole</li>
+<li>cefoxitin and cefotetan - only cephalosporines which cover anaerobes<ul>
+<li>note cefoxin and cefotetan (2nd gen cephalopsorines), has some gram negative cover</li>
+<li>useful in coverage of female genital infections (including doxycycline) - used in PID (pelvic anaerobes)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>respiratory anaeobes (anaerobic strep)<ul>
+<li>clindamycin - best drug for anaerobic strep</li>
+</ul>
+</li>
+<li>medications with no anaerobic coverage - aminoglycosides, cephalosporines (Except 2nd gen), aztreonam, oxacillin/naficillin/cloxacillin/dicloxacillin</li>
+</ul>
+</li>
+</ul>
+<h2 id="combinations-with-beta-lactamase-inhibitors">Combinations with beta lactamase inhibitors</h2>
+<ul>
+<li>look like a beta-lactam</li>
+<li>beta-lactamase sees the beta-lactamase inhibitors <ul>
+<li>clavulanate, sulbactam, tazobactam, avibactam, vaborbactam</li>
+<li>cleaves the beta lactam ring within the beta lactamase inhibitor (i.e. acts as a decoy) → they are destroyed instead</li>
+</ul>
+</li>
+<li>also known as 'suicide inhibitors' → purposefully destroyed for the antibiotic to act on the bacteria</li>
+<li>additional coverage against sensitive staphylococci and some gram negative bacilli</li>
+<li>does not cover MRSA</li>
+<li>useful in sinusitis, abscesses, oral infections, otitis media, human or animal bites<ul>
+<li>covers <strong>anaerobes</strong></li>
+</ul>
+</li>
+<li>meropenem-vaborbactam - for carbapenem resistant bugs</li>
+</ul>
+<h2 id="penicillin-allergies">Penicillin allergies</h2>
+<ul>
+<li>anaphylaxis - hypotension, shortness, confusion<ul>
+<li>cannot use cephalosporines or carbapenems</li>
+</ul>
+</li>
+<li>allergy - no hemodynamic disruption</li>
+<li>cephalosporines are OK in rashes</li>
+<li>severe reactions (anaphylaxis) → must use <ul>
+<li>vancomycin</li>
+<li>linezolid/tedizolid</li>
+<li>daptomycin</li>
+<li>telavancin, dalbavancin, oritavancin</li>
+</ul>
+</li>
+<li>minor reactions<ul>
+<li>clindamycin</li>
+<li>TMP/SMX</li>
+</ul>
+</li>
+</ul>
+<h2 id="beta-lactam-antibiotics">Beta lactam antibiotics</h2>
+<ul>
+<li>inhibits cell wall synthesis by binding PBP</li>
+<li>4 classes are<ul>
+<li>penicillin</li>
+<li>cephalosporins</li>
+<li>carbapenem</li>
+<li>monobactam </li>
+</ul>
+</li>
+<li>these 4 classes will NOT be synergistic → they work the same way!<ul>
+<li>have cross-reactivity but no synergy</li>
+<li>aztreonam (monobactam) and penicillin will not be cross reactive at all</li>
+</ul>
+</li>
+</ul>
+<h2 id="vancomycin-and-its-derivatives">Vancomycin and its derivatives</h2>
+<ul>
+<li>Vancomycin, telavancin, dalbavancin, oritavancin</li>
+<li>bactericidal lipopolysaccharides</li>
+<li>inhibits cell wall synthesis - binds to D-Ala-D-Ala terminus and replaces it with a D-Ala-D-?Leu</li>
+<li>increased risk of AKI when combined with pip/taz</li>
+</ul>
+<h2 id="cephalosporines">Cephalosporines</h2>
+<ul>
+<li>inhibits cell wall growth by binding to the penicillin-binding protein (transpeptidase)</li>
+</ul>
+<h2 id="linezolid">Linezolid</h2>
+<ul>
+<li>only inhibits protein synthesis → makes it only bacteriostatic</li>
+<li>inhibits the ribosome</li>
+<li>not the second choice for MRSA bactaraemia as it is bacteriostatic (daptomycin is 2nd line)</li>
+</ul>
+<h2 id="daptomycin">Daptomycin</h2>
+<ul>
+<li>doesn't cover the lungs → inactivated by surfactant<ul>
+<li>if MRSA pneumonia, daptomycin cannot be used as second line after vancomycin</li>
+<li>in this case, should be using ceftaroline </li>
+</ul>
+</li>
+</ul>
+<h2 id="tmp-smx">TMP-SMX</h2>
+<ul>
+<li>folate antagonist</li>
+</ul>
+<h2 id="tetracycline-antibiotics">Tetracycline antibiotics</h2>
+<h2 id="fluroquinolones">Fluroquinolones</h2>
+<ul>
+<li>inhibition of DNA gyrase (topoisomerases)<ul>
+<li>DNA cannot unwind (for reproducing base pairs)</li>
+</ul>
+</li>
+</ul></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyright &copy; 2021 Weber Liu</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../../js/jquery-3.6.0.min.js"></script>
+        <script src="../../../js/bootstrap.min.js"></script>
+        <script>
             var base_url = "../../..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-<script defer="" src="../../../js/base.js"></script>
-<script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<script defer="" src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<script defer="" src="../../../search/main.js"></script>
-<div aria-hidden="true" aria-labelledby="searchModalLabel" class="modal" id="mkdocs_search_modal" role="dialog" tabindex="-1">
-<div class="modal-dialog modal-lg">
-<div class="modal-content">
-<div class="modal-header">
-<h4 class="modal-title" id="searchModalLabel">Search</h4>
-<button class="close" data-dismiss="modal" type="button"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+        <script src="../../../js/base.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <script src="../../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
 </div>
-<div class="modal-body">
-<p>From here you can search these documents. Enter your search terms below.</p>
-<form>
-<div class="form-group">
-<input class="form-control" id="mkdocs-search-query" placeholder="Search..." title="Type search term here" type="search"/>
-</div>
-</form>
-<div data-no-results-text="No results found" id="mkdocs-search-results"></div>
-</div>
-<div class="modal-footer">
-</div>
-</div>
-</div>
-</div><div aria-hidden="true" aria-labelledby="keyboardModalLabel" class="modal" id="mkdocs_keyboard_modal" role="dialog" tabindex="-1">
-<div class="modal-dialog">
-<div class="modal-content">
-<div class="modal-header">
-<h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
-<button class="close" data-dismiss="modal" type="button"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
-</div>
-<div class="modal-body">
-<table class="table">
-<thead>
-<tr>
-<th style="width: 20%;">Keys</th>
-<th>Action</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="help shortcut"><kbd>?</kbd></td>
-<td>Open this help</td>
-</tr>
-<tr>
-<td class="next shortcut"><kbd>n</kbd></td>
-<td>Next page</td>
-</tr>
-<tr>
-<td class="prev shortcut"><kbd>p</kbd></td>
-<td>Previous page</td>
-</tr>
-<tr>
-<td class="search shortcut"><kbd>s</kbd></td>
-<td>Search</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="modal-footer">
-</div>
-</div>
-</div>
-</div>
-</body>
+
+    </body>
 </html>

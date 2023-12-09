@@ -1,107 +1,115 @@
 <!DOCTYPE html>
-
 <html lang="en">
-<head>
-<meta charset="utf-8"/>
-<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<link href="../img/favicon.ico" rel="shortcut icon"/>
-<title>Neurology - MediWiki</title>
-<link href="../css/bootstrap.min.css" rel="stylesheet"/>
-<link href="../css/font-awesome.min.css" rel="stylesheet"/>
-<link href="../css/base.css" rel="stylesheet"/>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/color-brewer.min.css" rel="stylesheet"/>
-<script defer="" src="../js/jquery-1.10.2.min.js"></script>
-<script defer="" src="../js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
-</head>
-<body>
-<div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
-<div class="container">
-<a class="navbar-brand" href="..">MediWiki</a>
-<!-- Expander button -->
-<button class="navbar-toggler" data-target="#navbar-collapse" data-toggle="collapse" type="button">
-<span class="navbar-toggler-icon"></span>
-</button>
-<!-- Expanded navigation -->
-<div class="navbar-collapse collapse" id="navbar-collapse">
-<!-- Main navigation -->
-<ul class="nav navbar-nav">
-<li class="navitem">
-<a class="nav-link" href="../Basic%20Clinical%20Sciences.html">Basic Clinical Sciences</a>
-</li>
-<li class="navitem">
-<a class="nav-link" href="../Internal%20Medicine.html">Internal Medicine</a>
-</li>
-<li class="navitem">
-<a class="nav-link" href="../Surgery.html">Surgery</a>
-</li>
-<li class="navitem">
-<a class="nav-link" href="../Psychiatry.html">Psychiatry</a>
-</li>
-<li class="navitem">
-<a class="nav-link" href="../Critical%20Care.html">Critical Care</a>
-</li>
-</ul>
-<ul class="nav navbar-nav ml-auto">
-<li class="nav-item">
-<a class="nav-link" data-target="#mkdocs_search_modal" data-toggle="modal" href="#">
-<i class="fa fa-search"></i> Search
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Neurology - MediWiki</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/color-brewer.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">MediWiki</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../Basic%20Clinical%20Sciences.html" class="nav-link">Basic Clinical Sciences</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../Internal%20Medicine.html" class="nav-link">Internal Medicine</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../Surgery.html" class="nav-link">Surgery</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../Psychiatry.html" class="nav-link">Psychiatry</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../Critical%20Care.html" class="nav-link">Critical Care</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
                             </a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="Nephrology.html" rel="prev">
-<i class="fa fa-arrow-left"></i> Previous
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="Nephrology.html" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
                                 </a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="Oncology.html" rel="next">
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="Otitis%20Media.html" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
-</a>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="container">
-<div class="row">
-<div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
-<div class="navbar-header">
-<button class="navbar-toggler collapsed" data-target="#toc-collapse" data-toggle="collapse" title="Table of Contents" type="button">
-<span class="fa fa-angle-down"></span>
-</button>
-</div>
-<div class="navbar-collapse collapse card bg-secondary" id="toc-collapse">
-<ul class="nav flex-column">
-<li class="nav-item" data-level="1"><a class="nav-link" href="#neurology">Neurology</a>
-<ul class="nav flex-column">
-<li class="nav-item" data-level="2"><a class="nav-link" href="#diagnosis-of-neurological-disorders">Diagnosis of neurological disorders</a>
-<ul class="nav flex-column">
-</ul>
-</li>
-<li class="nav-item" data-level="2"><a class="nav-link" href="#diseases-of-the-central-nervous-system">Diseases of the Central nervous system</a>
-<ul class="nav flex-column">
-</ul>
-</li>
-<li class="nav-item" data-level="2"><a class="nav-link" href="#nerve-and-muscle-disorders">Nerve and muscle disorders</a>
-<ul class="nav flex-column">
-</ul>
-</li>
-<li class="nav-item" data-level="2"><a class="nav-link" href="#other-issues-in-neurology">Other issues in neurology</a>
-<ul class="nav flex-column">
-</ul>
-</li>
-<li class="nav-item" data-level="2"><a class="nav-link" href="#neurology-toolkit">Neurology toolkit</a>
-<ul class="nav flex-column">
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</div>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#neurology" class="nav-link">Neurology</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#diagnosis-of-neurological-disorders" class="nav-link">Diagnosis of neurological disorders</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#diseases-of-the-central-nervous-system" class="nav-link">Diseases of the Central nervous system</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#nerve-and-muscle-disorders" class="nav-link">Nerve and muscle disorders</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#other-issues-in-neurology" class="nav-link">Other issues in neurology</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#neurology-toolkit" class="nav-link">Neurology toolkit</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
 </div></div>
-<div class="col-md-9" role="main">
+                    <div class="col-md-9" role="main">
+
 <h1 id="neurology">Neurology</h1>
 <h2 id="diagnosis-of-neurological-disorders">Diagnosis of neurological disorders</h2>
 <ol>
@@ -116,22 +124,22 @@
 </ol>
 <p>Seizures and epilepsy syndromes</p>
 <ol>
-<li><a href="Epilepsy%20and%20seizures/Seizures%20and%20epilepsy%20syndromes.md">Seizures and epilepsy syndromes</a></li>
+<li><a href="Neurology/Epilepsy%20and%20seizures/Seizures%20and%20epilepsy%20syndromes.html">Seizures and epilepsy syndromes</a></li>
 </ol>
 <p>Vascular neurological disorders</p>
 <ol>
-<li><a href="Neurology/Cerebrovascular%20disease.html">Cerebrovascular disease</a></li>
-<li><a href="Vascular%20Neurological%20Disorders/Stroke%20syndromes.md">Stroke syndromes</a></li>
-<li><a href="Vascular%20Neurological%20Disorders/Ischemic%20Stroke.md">Ischemic Stroke</a></li>
-<li><a href="Vascular%20Neurological%20Disorders/Transient%20Ischemic%20Attack%20(TIA).md">Transient Ischemic Attack (TIA)</a></li>
-<li>[[Neurology/Haemorrhagic stroke]]<ol>
-<li><a href="Vascular%20Neurological%20Disorders/Intracerebral%20Haemorhage%20(ICH).md">Intracerebral Haemorhage (ICH)</a></li>
-<li><a href="Vascular%20Neurological%20Disorders/Subarachnoid%20haemorrhage%20(SAH).md">Subarachnoid haemorrhage (SAH)</a></li>
+<li><a href="Neurology/Vascular%20Neurological%20Disorders/Cerebrovascular%20disease.html">Cerebrovascular disease</a></li>
+<li><a href="Neurology/Vascular%20Neurological%20Disorders/Stroke%20syndromes.html">Stroke syndromes</a></li>
+<li><a href="Neurology/Vascular%20Neurological%20Disorders/Ischemic%20Stroke.html">Ischemic Stroke</a></li>
+<li><a href="Neurology/Vascular%20Neurological%20Disorders/Transient%20Ischemic%20Attack%20%28TIA%29.html">Transient Ischemic Attack (TIA)</a></li>
+<li>[<a href="Neurology/Vascular%20Neurological%20Disorders/Haemorrhagic%20stroke.html">Neurology/Vascular Neurological Disorders/Haemorrhagic stroke</a><ol>
+<li><a href="Neurology/Vascular%20Neurological%20Disorders/Intracerebral%20Haemorhage%20%28ICH%29.html">Intracerebral Haemorhage (ICH)</a></li>
+<li><a href="Neurology/Vascular%20Neurological%20Disorders/Subarachnoid%20haemorrhage%20%28SAH%29.html">Subarachnoid haemorrhage (SAH)</a></li>
 </ol>
 </li>
 <li><a href="Neurology/Vascular%20Neurological%20Disorders/Subdural%20Hematoma.html">Subdural Hematoma</a></li>
 <li><a href="Neurology/Vascular%20Neurological%20Disorders/Epidural%20Hematoma.html">Epidural Hematoma</a></li>
-<li><a href="Vascular%20Neurological%20Disorders/Vascular%20anomalies%20of%20the%20brain.md">Vascular anomalies of the brain</a></li>
+<li><a href="Neurology/Vascular%20Neurological%20Disorders/Vascular%20anomalies%20of%20the%20brain.html">Vascular anomalies of the brain</a></li>
 </ol>
 <p>Headache disorders</p>
 <ol>
@@ -142,20 +150,20 @@
 </ol>
 <p>Dementias</p>
 <ol>
-<li><a href="Dementias/Alzheimers%20disease.md">Alzheimers disease</a></li>
-<li><a href="Dementias/Frontotemporal%20Dementia.md">Frontotemporal Dementia</a></li>
-<li><a href="Dementias/Vascular%20Dementia.md">Vascular Dementia</a></li>
+<li><a href="Neurology/Dementias/Alzheimers%20disease.html">Alzheimers disease</a></li>
+<li><a href="Neurology/Dementias/Frontotemporal%20Dementia.html">Frontotemporal Dementia</a></li>
+<li><a href="Neurology/Dementias/Vascular%20Dementia.html">Vascular Dementia</a></li>
 <li>Dementia with Lewy Body (DLB)</li>
 </ol>
 <p>Movement disorders</p>
 <ol>
 <li><a href="Parkinson's%20disease">Parkinson's disease</a></li>
-<li><a href="Movement%20Disorders/Parkinsons-plus%20syndromes.md">Parkinsons-plus syndromes</a></li>
-<li><a href="Movement%20Disorders/Tremor,%20Chorea%20and%20movement%20disorders.md">Tremor, Chorea and movement disorders</a></li>
-<li><a href="Movement%20Disorders/Tourette's%20Syndrome.md">Tourette's Syndrome</a></li>
-<li><a href="Movement%20Disorders/Huntington's%20disease.md">Huntington's disease</a></li>
-<li><a href="Movement%20Disorders/Huntington's%20disease-like%20disorders.md">Huntington's disease-like disorders</a></li>
-<li><a href="Dementias/Drug%20induced%20movement%20disorders.md">Drug induced movement disorders</a></li>
+<li><a href="Neurology/Movement%20Disorders/Parkinsons-plus%20syndromes.html">Parkinsons-plus syndromes</a></li>
+<li><a href="Neurology/Movement%20Disorders/Tremor%2C%20Chorea%20and%20movement%20disorders.html">Tremor, Chorea and movement disorders</a></li>
+<li><a href="Neurology/Movement%20Disorders/Tourette%27s%20Syndrome.html">Tourette's Syndrome</a></li>
+<li><a href="Neurology/Movement%20Disorders/Huntington%27s%20disease.html">Huntington's disease</a></li>
+<li><a href="Neurology/Movement%20Disorders/Huntington%27s%20disease-like%20disorders.html">Huntington's disease-like disorders</a></li>
+<li><a href="Neurology/Dementias/Drug%20induced%20movement%20disorders.html">Drug induced movement disorders</a></li>
 <li>Progressive supranuclear palsy</li>
 <li><a href="Restless%20Leg%20Syndrome%20(RLS)">Restless Leg Syndrome (RLS)</a></li>
 <li><a href="Wilson's%20disease">Wilson's disease</a></li>
@@ -222,7 +230,7 @@ Upper Motor Neuron disease</p>
 <h2 id="nerve-and-muscle-disorders">Nerve and muscle disorders</h2>
 <ol>
 <li>Peripheral Neuropathy</li>
-<li>Guillain-Barre Syndrome</li>
+<li><a href="Guillain-Barre%20Syndrome.html">Guillain-Barre Syndrome</a></li>
 <li>Immune mediated neuropathies</li>
 <li>Myaesthenia gravis</li>
 <li>NMJ diseases</li>
@@ -246,7 +254,7 @@ Upper Motor Neuron disease</p>
 <h2 id="other-issues-in-neurology">Other issues in neurology</h2>
 <ol>
 <li>Chronic Fatigue Syndrome</li>
-<li><a href="Epilepsy%20and%20seizures/Non-epileptic%20Seizures%20(Pseudoseizure).md">Non-epileptic Seizures (Pseudoseizure)</a></li>
+<li><a href="Neurology/Epilepsy%20and%20seizures/Non-epileptic%20Seizures%20%28Pseudoseizure%29.html">Non-epileptic Seizures (Pseudoseizure)</a></li>
 <li>Todd's paresis</li>
 </ol>
 <h2 id="neurology-toolkit">Neurology toolkit</h2>
@@ -256,83 +264,89 @@ Upper Motor Neuron disease</p>
 <p>NIHSS scoring tool</p>
 </li>
 <li>
-<p>[[IM/Neurology/Epilepsy and seizures/Absence seizure]]</p>
+<p>[<a href="Neurology/Epilepsy%20and%20seizures/Absence%20seizure.html">IM/Neurology/Epilepsy and seizures/Absence seizure</a></p>
 </li>
 </ol></div>
-</div>
-</div>
-<footer class="col-md-12">
-<hr/>
-<p>Copyright © 2021 Weber Liu</p>
-</footer>
-<script>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyright &copy; 2021 Weber Liu</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/jquery-3.6.0.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script>
             var base_url = "..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-<script defer="" src="../js/base.js"></script>
-<script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<script defer="" src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<script defer="" src="../search/main.js"></script>
-<div aria-hidden="true" aria-labelledby="searchModalLabel" class="modal" id="mkdocs_search_modal" role="dialog" tabindex="-1">
-<div class="modal-dialog modal-lg">
-<div class="modal-content">
-<div class="modal-header">
-<h4 class="modal-title" id="searchModalLabel">Search</h4>
-<button class="close" data-dismiss="modal" type="button"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+        <script src="../js/base.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
 </div>
-<div class="modal-body">
-<p>From here you can search these documents. Enter your search terms below.</p>
-<form>
-<div class="form-group">
-<input class="form-control" id="mkdocs-search-query" placeholder="Search..." title="Type search term here" type="search"/>
-</div>
-</form>
-<div data-no-results-text="No results found" id="mkdocs-search-results"></div>
-</div>
-<div class="modal-footer">
-</div>
-</div>
-</div>
-</div><div aria-hidden="true" aria-labelledby="keyboardModalLabel" class="modal" id="mkdocs_keyboard_modal" role="dialog" tabindex="-1">
-<div class="modal-dialog">
-<div class="modal-content">
-<div class="modal-header">
-<h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
-<button class="close" data-dismiss="modal" type="button"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
-</div>
-<div class="modal-body">
-<table class="table">
-<thead>
-<tr>
-<th style="width: 20%;">Keys</th>
-<th>Action</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="help shortcut"><kbd>?</kbd></td>
-<td>Open this help</td>
-</tr>
-<tr>
-<td class="next shortcut"><kbd>n</kbd></td>
-<td>Next page</td>
-</tr>
-<tr>
-<td class="prev shortcut"><kbd>p</kbd></td>
-<td>Previous page</td>
-</tr>
-<tr>
-<td class="search shortcut"><kbd>s</kbd></td>
-<td>Search</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="modal-footer">
-</div>
-</div>
-</div>
-</div>
-</body>
+
+    </body>
 </html>

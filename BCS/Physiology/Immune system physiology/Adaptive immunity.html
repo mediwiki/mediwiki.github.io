@@ -1,113 +1,141 @@
 <!DOCTYPE html>
-
 <html lang="en">
-<head>
-<meta charset="utf-8"/>
-<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<link href="../../../img/favicon.ico" rel="shortcut icon"/>
-<title>Adaptive immunity - MediWiki</title>
-<link href="../../../css/bootstrap.min.css" rel="stylesheet"/>
-<link href="../../../css/font-awesome.min.css" rel="stylesheet"/>
-<link href="../../../css/base.css" rel="stylesheet"/>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/color-brewer.min.css" rel="stylesheet"/>
-<script defer="" src="../../../js/jquery-1.10.2.min.js"></script>
-<script defer="" src="../../../js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
-</head>
-<body>
-<div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
-<div class="container">
-<a class="navbar-brand" href="../../..">MediWiki</a>
-<!-- Expander button -->
-<button class="navbar-toggler" data-target="#navbar-collapse" data-toggle="collapse" type="button">
-<span class="navbar-toggler-icon"></span>
-</button>
-<!-- Expanded navigation -->
-<div class="navbar-collapse collapse" id="navbar-collapse">
-<!-- Main navigation -->
-<ul class="nav navbar-nav">
-<li class="navitem">
-<a class="nav-link" href="../../../Basic%20Clinical%20Sciences.html">Basic Clinical Sciences</a>
-</li>
-<li class="navitem">
-<a class="nav-link" href="../../../Internal%20Medicine.html">Internal Medicine</a>
-</li>
-<li class="navitem">
-<a class="nav-link" href="../../../Surgery.html">Surgery</a>
-</li>
-<li class="navitem">
-<a class="nav-link" href="../../../Psychiatry.html">Psychiatry</a>
-</li>
-<li class="navitem">
-<a class="nav-link" href="../../../Critical%20Care.html">Critical Care</a>
-</li>
-</ul>
-<ul class="nav navbar-nav ml-auto">
-<li class="nav-item">
-<a class="nav-link" data-target="#mkdocs_search_modal" data-toggle="modal" href="#">
-<i class="fa fa-search"></i> Search
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>Adaptive immunity - MediWiki</title>
+        <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/color-brewer.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../../..">MediWiki</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../../../Basic%20Clinical%20Sciences.html" class="nav-link">Basic Clinical Sciences</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../../Internal%20Medicine.html" class="nav-link">Internal Medicine</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../../Surgery.html" class="nav-link">Surgery</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../../Psychiatry.html" class="nav-link">Psychiatry</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../../Critical%20Care.html" class="nav-link">Critical Care</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
                             </a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="../Hemostasis%20and%20thrombosis/Platelet%20adhesion%20and%20activation.html" rel="prev">
-<i class="fa fa-arrow-left"></i> Previous
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../Hemostasis%20and%20thrombosis/Platelet%20adhesion%20and%20activation.html" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
                                 </a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="Antibodies.html" rel="next">
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="Antibodies.html" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
-</a>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="container">
-<div class="row">
-<div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
-<div class="navbar-header">
-<button class="navbar-toggler collapsed" data-target="#toc-collapse" data-toggle="collapse" title="Table of Contents" type="button">
-<span class="fa fa-angle-down"></span>
-</button>
-</div>
-<div class="navbar-collapse collapse card bg-secondary" id="toc-collapse">
-<ul class="nav flex-column">
-<li class="nav-item" data-level="1"><a class="nav-link" href="#adaptive-immunity">Adaptive immunity</a>
-<ul class="nav flex-column">
-<li class="nav-item" data-level="2"><a class="nav-link" href="#background">Background</a>
-<ul class="nav flex-column">
-</ul>
-</li>
-<li class="nav-item" data-level="2"><a class="nav-link" href="#properties-of-adaptive-immunity">Properties of adaptive immunity</a>
-<ul class="nav flex-column">
-</ul>
-</li>
-<li class="nav-item" data-level="2"><a class="nav-link" href="#cells-of-the-adaptive-immune-system">Cells of the adaptive immune system</a>
-<ul class="nav flex-column">
-</ul>
-</li>
-<li class="nav-item" data-level="2"><a class="nav-link" href="#definition">Definition</a>
-<ul class="nav flex-column">
-</ul>
-</li>
-<li class="nav-item" data-level="2"><a class="nav-link" href="#relevant-links">Relevant links</a>
-<ul class="nav flex-column">
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</div>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#adaptive-immunity" class="nav-link">Adaptive immunity</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#background" class="nav-link">Background</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#properties-of-adaptive-immunity" class="nav-link">Properties of adaptive immunity</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#cells-of-the-adaptive-immune-system" class="nav-link">Cells of the adaptive immune system</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#selection" class="nav-link">Selection</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#antigen-presentatino" class="nav-link">Antigen presentatino</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#cytotoxic-lymphocytes" class="nav-link">Cytotoxic lymphocytes</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#t-cell-differentiation" class="nav-link">T-cell differentiation</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#b-cell-immunity" class="nav-link">B-cell immunity</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#rethinking-primary-immunodeficiency" class="nav-link">Rethinking primary immunodeficiency</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#cytokine-signalling" class="nav-link">Cytokine signalling</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
 </div></div>
-<div class="col-md-9" role="main">
+                    <div class="col-md-9" role="main">
+
 <h1 id="adaptive-immunity">Adaptive immunity</h1>
 <h2 id="background">Background</h2>
 <p>Includes</p>
 <ul>
-<li><a href="Cell-mediated%20immunity.html">Cell-mediated immunity</a></li>
-<li><a href="Humoral%20immunity.html">Humoral immunity</a></li>
+<li><a href="T-Cell-mediated%20immunity.html">T-Cell-mediated immunity</a></li>
+<li><a href="B-cell%20mediated%20%28Humoral%29%20immunity.html">B-cell mediated (Humoral) immunity</a></li>
 </ul>
 <h2 id="properties-of-adaptive-immunity">Properties of adaptive immunity</h2>
 <ol>
@@ -136,82 +164,193 @@
 </ul>
 </li>
 </ol>
-<h2 id="definition">Definition</h2>
-<h2 id="relevant-links">Relevant links</h2></div>
-</div>
-</div>
-<footer class="col-md-12">
-<hr/>
-<p>Copyright © 2021 Weber Liu</p>
-</footer>
-<script>
+<hr />
+<h2 id="selection">Selection</h2>
+<p><img alt="" src="../../../figures/Pasted%20image%2020231106194126.png" />
+- T-cell development and selection occurs in thymus
+    - CD4+CD8+ (double positive) T-cells presented with self-antigens in thymus by <strong>cortical thymic epithelial cells</strong>
+        - if presented via MHC-I → loses CD4 and becomes CD8+
+        - if presented via MHC-II → loses CD8 and becomes CD4+
+    - facilitated by AIRE
+        - most cells dont get presented anything → die by neglect
+        - low affinity binding → survive (positive selection)
+        - high affinity binding → die (negative selection)
+        - intermediate affinity → Tregs
+    - mutations in AIRE results in failure of central tolerance
+        - autoimmune polyendocrinopathy Syndrome-1 (APS1 or APECED)
+        - results in highly reactive cells in system → autoimmunity 
+        - can develop anticytokine antibodies which can result in chronic mucocutaneous candidiasis</p>
+<hr />
+<h2 id="antigen-presentatino">Antigen presentatino</h2>
+<p><img alt="" src="../../../figures/Pasted%20image%2020231106194357.png" />
+- dendritic cell encounters microbe in tissue
+    - takes up antigen, gets to lymph node
+    - presents to lymphocyte
+    - when presented via 
+        - MHC-II → speaks to CD4+ T-cell → found in innate immune cells, and antigen presenting cells
+            - will present phagocystosed, exogenous proteins
+        - if MHC-I → speaks to CD8+ T-cell → found in all nucleated cells
+            - presents endogenous antigens encoded by host or viral genome
+        - cross-presentation can occur whereby exogenous proteins are presented via MHC-I on dendritic cells
+    - MHC-TCR interaction is called the immunological synapse</p>
+<hr />
+<h2 id="cytotoxic-lymphocytes">Cytotoxic lymphocytes</h2>
+<p><img alt="" src="../../../figures/Pasted%20image%2020231106194619.png" />
+- e.g. in case of virally infected macrophage
+    - granzymes and perforins released
+    - FAS release w/ FAS-L can activate 'death receptors
+    - cytokines for inflammation and inducing cell death
+- if not efficient - defective apoptosis occurs → chronically infected macrophages releasing cytokines and cytotoxic lymphocyhtes releasing cytokines → profound inflammatory response → hemophagocytosis
+    - e.g. perforin deficiency, granzyme vesicle trafficking difficulty → will result in arrested apoptosis</p>
+<hr />
+<h2 id="t-cell-differentiation">T-cell differentiation</h2>
+<p><img alt="" src="../../../figures/Pasted%20image%2020231106194815.png" />
+- Needs 3 signals
+    1. Antigen presentatino with naive lymphocyte
+    2. Cytokine milieu - dictated by innate immune response - different TLR activation will release different cytokines
+        - e.g. TLR2 → IL-12 and IFN release → signal Stat4/Tbet transcription → produces Th1 cell and itself releasing IFNy and TNF
+            - Th1 important in macrophage activation and killing intracellular organisms
+        - e.g. IL4 release → Stat6/GATA3 response → Th2 cell induction → IL4, IL5, IL13 release 
+            - Th2 is to induce helminth responses and allergies
+    1. Co-stimulation (at immunologic synapse)
+        - CD80-CD28 binding (CD28 CDb7.1/2)
+            - regulators need to stop it from going AWOL
+            - CTLA4 - transported to surface of Treg → binds to CD80/86 which stops it from binding CD21 → stops lymphocyte activation
+                - can be dysregulated by tumours
+                - absence can occur through CTLA haploinsufficiency (gene mutation, loss of function) or LRBA deficiency (important for trafficking CTLA4 to surface)
+                    - can result in autoimmunity and immunodeficiency
+                    - <img alt="" src="../../../figures/Pasted%20image%2020231106195259.png" />
+                    - complication of melanoma treatment with CTLA4 → autoimmunity
+            - PD1 - inhibits TCR signalling, leads to T-cell anergy, inhibits cell growth, inhibits T-cell effector functino, targeting antibodies 'awaken' anergic cells
+                - <img alt="" src="../../../figures/Pasted%20image%2020231106195346.png" />
+                - targeting PD1 in immunotherapy awakens anergic cells</p>
+<p><img alt="" src="../../../figures/Pasted%20image%2020231106195141.png" /></p>
+<hr />
+<h2 id="b-cell-immunity">B-cell immunity</h2>
+<p><img alt="" src="../../../figures/Pasted%20image%2020231106195457.png" />
+- B-cell maturation occurs in bone marrow
+- immature B-cells released into periphery as IgM and IgD positive lymphocyte
+    - encounters antigen → produces more IgM
+    - only when interacting with follicular T-cell can it class switch
+        - class switch recombination depends on cytokines the T-cell is producing
+    - CD40 and CD40L interactions occuring at B/T-cell synapse is important
+        - absence of T-cell results in hyperIgM syndrome</p>
+<hr />
+<h2 id="rethinking-primary-immunodeficiency">Rethinking primary immunodeficiency</h2>
+<p><img alt="" src="../../../figures/Pasted%20image%2020231106195629.png" /></p>
+<hr />
+<ul>
+<li>Immune deficiency is not just about infections<ul>
+<li>50% have non-infectious complications → makes diagnosis hard</li>
+<li>autoimmunity, inflammation, malignancy, allergy and infections may be related and result in immune deficiency</li>
+</ul>
+</li>
+<li>ESID cohort (n=2700)<ul>
+<li>bronchiectasis, AIHA, ITP, lymphoma, GI disturbances more common in CVID vs. general population</li>
+<li>autoimmunity can precede infection</li>
+<li>can have &gt;1 condition - think twice when patient presents with more than 1 autoimmune condition</li>
+<li>autoimmunity risk higher in CVID patients</li>
+<li>poor prognosis and shorter survival</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h2 id="cytokine-signalling">Cytokine signalling</h2>
+<p><img alt="" src="../../../figures/Pasted%20image%2020231106195859.png" />
+- cytokine bind to cytokine receptor
+    - subunits may be shared amongst multiple cytokines
+    - JAK/STAT pathway → STAT translocation into nucleus and transcription occurs
+- Different cytokines signal through different JAKs and STATs
+    - some signal through the same process
+        - e.g. IL23 and IL12 both affected by same pathways
+<img alt="" src="../../../figures/Pasted%20image%2020231106195950.png" /></p>
+<p><img alt="" src="../../../figures/Pasted%20image%2020231106200016.png" />
+- Defects can affect JAKs or STATs
+    - LOF or GOF defects have implications
+    - JAK GOF → Haematological malignancies and myelofibrosis picture
+    - STAT GOF - e.g. STAT1 GOF → autoimmunity, chronic mucutaneous candidaisis, cerebral aneursyms
+        - LOF → myobacterial and viral infections
+- more new JAK inhibitors (JAKinibs)</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyright &copy; 2021 Weber Liu</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../../js/jquery-3.6.0.min.js"></script>
+        <script src="../../../js/bootstrap.min.js"></script>
+        <script>
             var base_url = "../../..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-<script defer="" src="../../../js/base.js"></script>
-<script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<script defer="" src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<script defer="" src="../../../search/main.js"></script>
-<div aria-hidden="true" aria-labelledby="searchModalLabel" class="modal" id="mkdocs_search_modal" role="dialog" tabindex="-1">
-<div class="modal-dialog modal-lg">
-<div class="modal-content">
-<div class="modal-header">
-<h4 class="modal-title" id="searchModalLabel">Search</h4>
-<button class="close" data-dismiss="modal" type="button"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+        <script src="../../../js/base.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <script src="../../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
 </div>
-<div class="modal-body">
-<p>From here you can search these documents. Enter your search terms below.</p>
-<form>
-<div class="form-group">
-<input class="form-control" id="mkdocs-search-query" placeholder="Search..." title="Type search term here" type="search"/>
-</div>
-</form>
-<div data-no-results-text="No results found" id="mkdocs-search-results"></div>
-</div>
-<div class="modal-footer">
-</div>
-</div>
-</div>
-</div><div aria-hidden="true" aria-labelledby="keyboardModalLabel" class="modal" id="mkdocs_keyboard_modal" role="dialog" tabindex="-1">
-<div class="modal-dialog">
-<div class="modal-content">
-<div class="modal-header">
-<h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
-<button class="close" data-dismiss="modal" type="button"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
-</div>
-<div class="modal-body">
-<table class="table">
-<thead>
-<tr>
-<th style="width: 20%;">Keys</th>
-<th>Action</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="help shortcut"><kbd>?</kbd></td>
-<td>Open this help</td>
-</tr>
-<tr>
-<td class="next shortcut"><kbd>n</kbd></td>
-<td>Next page</td>
-</tr>
-<tr>
-<td class="prev shortcut"><kbd>p</kbd></td>
-<td>Previous page</td>
-</tr>
-<tr>
-<td class="search shortcut"><kbd>s</kbd></td>
-<td>Search</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="modal-footer">
-</div>
-</div>
-</div>
-</div>
-</body>
+
+    </body>
 </html>

@@ -1,130 +1,208 @@
 <!DOCTYPE html>
-
 <html lang="en">
-<head>
-<meta charset="utf-8"/>
-<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<link href="../../img/favicon.ico" rel="shortcut icon"/>
-<title>Diabetes Mellitus - MediWiki</title>
-<link href="../../css/bootstrap.min.css" rel="stylesheet"/>
-<link href="../../css/font-awesome.min.css" rel="stylesheet"/>
-<link href="../../css/base.css" rel="stylesheet"/>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/color-brewer.min.css" rel="stylesheet"/>
-<script defer="" src="../../js/jquery-1.10.2.min.js"></script>
-<script defer="" src="../../js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
-</head>
-<body>
-<div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
-<div class="container">
-<a class="navbar-brand" href="../..">MediWiki</a>
-<!-- Expander button -->
-<button class="navbar-toggler" data-target="#navbar-collapse" data-toggle="collapse" type="button">
-<span class="navbar-toggler-icon"></span>
-</button>
-<!-- Expanded navigation -->
-<div class="navbar-collapse collapse" id="navbar-collapse">
-<!-- Main navigation -->
-<ul class="nav navbar-nav">
-<li class="navitem">
-<a class="nav-link" href="../../Basic%20Clinical%20Sciences.html">Basic Clinical Sciences</a>
-</li>
-<li class="navitem">
-<a class="nav-link" href="../../Internal%20Medicine.html">Internal Medicine</a>
-</li>
-<li class="navitem">
-<a class="nav-link" href="../../Surgery.html">Surgery</a>
-</li>
-<li class="navitem">
-<a class="nav-link" href="../../Psychiatry.html">Psychiatry</a>
-</li>
-<li class="navitem">
-<a class="nav-link" href="../../Critical%20Care.html">Critical Care</a>
-</li>
-</ul>
-<ul class="nav navbar-nav ml-auto">
-<li class="nav-item">
-<a class="nav-link" data-target="#mkdocs_search_modal" data-toggle="modal" href="#">
-<i class="fa fa-search"></i> Search
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Diabetes Mellitus - MediWiki</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/color-brewer.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">MediWiki</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../../Basic%20Clinical%20Sciences.html" class="nav-link">Basic Clinical Sciences</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../Internal%20Medicine.html" class="nav-link">Internal Medicine</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../Surgery.html" class="nav-link">Surgery</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../Psychiatry.html" class="nav-link">Psychiatry</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../Critical%20Care.html" class="nav-link">Critical Care</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
                             </a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="Diabetes%20insipidus.html" rel="prev">
-<i class="fa fa-arrow-left"></i> Previous
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="Cushings%20Syndrome.html" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
                                 </a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="Diabetic%20ketoacidosis%20%28DKA%29.html" rel="next">
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="Diabetes%20insipidus.html" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
-</a>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="container">
-<div class="row">
-<div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
-<div class="navbar-header">
-<button class="navbar-toggler collapsed" data-target="#toc-collapse" data-toggle="collapse" title="Table of Contents" type="button">
-<span class="fa fa-angle-down"></span>
-</button>
-</div>
-<div class="navbar-collapse collapse card bg-secondary" id="toc-collapse">
-<ul class="nav flex-column">
-<li class="nav-item" data-level="1"><a class="nav-link" href="#diabetes-mellitus">Diabetes Mellitus</a>
-<ul class="nav flex-column">
-<li class="nav-item" data-level="2"><a class="nav-link" href="#classification">Classification</a>
-<ul class="nav flex-column">
-</ul>
-</li>
-<li class="nav-item" data-level="2"><a class="nav-link" href="#diagnosis">Diagnosis</a>
-<ul class="nav flex-column">
-</ul>
-</li>
-<li class="nav-item" data-level="2"><a class="nav-link" href="#complications">Complications</a>
-<ul class="nav flex-column">
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</div>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#diabetes-mellitus" class="nav-link">Diabetes Mellitus</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#classification" class="nav-link">Classification</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#diagnosis" class="nav-link">Diagnosis</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#investigations-for-new-diabetes" class="nav-link">Investigations for new diabetes</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#complications" class="nav-link">Complications</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#insulin" class="nav-link">Insulin</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#oral-antihyperglycaemic-agents" class="nav-link">Oral antihyperglycaemic agents</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#diabetes-case-studies" class="nav-link">Diabetes case studies</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#case-1" class="nav-link">Case 1</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#insulin-sensitivity-factor-correction-100total-daily-dose" class="nav-link">Insulin sensitivity factor (correction = 100/total daily dose)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#case-2" class="nav-link">Case 2</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#case-3" class="nav-link">Case 3</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#case-4" class="nav-link">Case 4</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#case-5" class="nav-link">Case 5</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
 </div></div>
-<div class="col-md-9" role="main">
+                    <div class="col-md-9" role="main">
+
 <h1 id="diabetes-mellitus">Diabetes Mellitus</h1>
 <h2 id="classification">Classification</h2>
 <ol>
 <li><a href="Type%20I%20Diabetes.html">Type I Diabetes</a></li>
 <li><a href="Type%20II%20Diabetes.html">Type II Diabetes</a></li>
-<li>Impaired glucose tolerance (IGT)</li>
-<li>Impaired fasting glucose (IFG)</li>
+<li><a href="Type%20IIIc%20Diabetes%20%28exocrine%20pancreas%20disorders%29.html">Type IIIc Diabetes (exocrine pancreas disorders)</a></li>
+<li><a href="Checkpoint%20inhibitor%20associated%20DM%20%28CIADM%29.html">Checkpoint inhibitor associated DM (CIADM)</a></li>
+<li><a href="Gestational%20Diabetes.html">Gestational Diabetes</a></li>
+<li><a href="Drug-induced%20Diabetes.html">Drug-induced Diabetes</a></li>
+<li><a href="Monogenic%20Diabetes.html">Monogenic Diabetes</a></li>
+<li><a href="Slowly%20Evolving%20Immune-Mediated%20Diabetes%20%28SEIMD%29.html">Slowly Evolving Immune-Mediated Diabetes (SEIMD)</a></li>
 </ol>
 <h2 id="diagnosis">Diagnosis</h2>
+<p><img alt="" src="../../figures/Pasted%20image%2020231104085417.png" /></p>
+<p>Diagnosis requires
+- Symptomatic + 1x positive lab test
+- Asymptomatic + 2x positive lab tests on SEPARATE days
+- If Fasting/random BGLs are equivocal x2 → perform OGTT</p>
 <ol>
-<li>Testing recommendations (see also Table 4-2).</li>
+<li>Testing recommendations<ul>
+<li>Screen all adults between ages 40 and 70 every 3 years.</li>
+<li>For those with risk factors for diabetes (obesity, family history, history of gestational diabetes), start screening earlier. Some recommend early screening for African Americans and Native Americans.</li>
+<li>Test anyone with signs or symptoms of diabetes.</li>
+</ul>
+</li>
+<li>Perform any one of the following tests on two separate days (see Table 4-2).<ul>
+<li>Fasting plasma glucose—criteria for DM: glucose &gt;126 mg/dL. If between 100 and 126 mg/dL, perform a 75-g oral glucose tolerance test (although this is rarely done) or recheck fasting glucose.</li>
+<li>Random plasma glucose—criteria for DM: glucose &gt;200 mg/dL in a person with diabetic symptoms.</li>
+<li>Two-hour postprandial plasma glucose level—criteria for DM: glucose &gt;200 mg/dL after administration of the equivalent of a 75-g glucose load (more sensitive than fasting glucose level, but less convenient).</li>
+<li>Hemoglobin A1c—criteria for DM: A1c &gt;6.5% (repeat test should occur &gt;3 months later as opposed to the next day). Many use this as preferred screening method.</li>
+</ul>
+</li>
 </ol>
-<p>a. Screen all adults between ages 40 and 70 every 3 years.</p>
-<p>b. For those with risk factors for diabetes (obesity, family history, history of
-gestational diabetes), start screening earlier. Some recommend early screening
-for African Americans and Native Americans.</p>
-<p>c. Test anyone with signs or symptoms of diabetes.</p>
+<h2 id="investigations-for-new-diabetes">Investigations for new diabetes</h2>
 <ol>
-<li>Perform any one of the following tests on two separate days (see Table 4-2).</li>
+<li>Pancreatic function assessment<ol>
+<li>C-peptide</li>
+<li>Insulin</li>
+<li>Formal glucose levels</li>
 </ol>
-<p>a. Fasting plasma glucose—criteria for DM: glucose &gt;126 mg/dL.
-If between 100 and 126 mg/dL, perform a 75-g oral glucose tolerance test
-(although this is rarely done) or recheck fasting glucose.</p>
-<p>b. Random plasma glucose—criteria for DM: glucose &gt;200 mg/dL in a person with
-diabetic symptoms.</p>
-<p>c. Two-hour postprandial plasma glucose level—criteria for DM: glucose &gt;200
-mg/dL after administration of the equivalent of a 75-g glucose load (more
-sensitive than fasting glucose level, but less convenient).</p>
-<p>d. Hemoglobin A1c—criteria for DM: A1c &gt;6.5% (repeat test should occur &gt;3
-months later as opposed to the next day). Many use this as preferred screening
-method.</p>
+</li>
+<li>Proteinurea assessment<ol>
+<li>Urine Albumin:Creatinine ratio (gold standard)<ol>
+<li>Urine PCR only gives large protein loss information</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Autoantibodies assessment (70-90% of T1DM)<ol>
+<li>­Glutamic acid carboxylase (GAD65) -&gt; 85% of diabetes</li>
+<li>­Islet antigen-2 (IA-2)</li>
+<li>­Zinc transporter (ZnT8) -&gt; found in 70%</li>
+<li>­Insulin (IAA)</li>
+<li>­Islet cell cytoplasmic autoantibodies (ICA)<ul>
+<li>now limited value in clinical practice, however can be used last line when out of options</li>
+</ul>
+</li>
+</ol>
+</li>
+</ol>
 <h2 id="complications">Complications</h2>
 <h3 id="macrovascular">Macrovascular</h3>
 <ol>
@@ -132,88 +210,289 @@ method.</p>
 <li><a href="Charcot%20joint.html">Charcot joint</a></li>
 <li>Peripheral vascular disease</li>
 <li>Coronary Artery Disease (CAD)</li>
-<li><a href="../Neurology/Cerebrovascular%20disease.html">Cerebrovascular disease</a></li>
+<li><a href="../Neurology/Vascular%20Neurological%20Disorders/Cerebrovascular%20disease.html">Cerebrovascular disease</a></li>
 </ol>
 <h3 id="microvascular">Microvascular</h3>
 <ol>
 <li>[[Diabetic retinopathy]]</li>
 <li>Diabetic neuropathy</li>
-<li>Diabetic nephropathy</li>
-</ol></div>
-</div>
-</div>
-<footer class="col-md-12">
-<hr/>
-<p>Copyright © 2021 Weber Liu</p>
-</footer>
-<script>
+<li><a href="Diabetic%20nephropathy.html">Diabetic nephropathy</a></li>
+</ol>
+<h3 id="dm-emergencies">DM emergencies</h3>
+<ul>
+<li>Hypoglycaemia</li>
+<li><a href="Diabetic%20Ketoacidosis%20%28DKA%29.html">Diabetic Ketoacidosis (DKA)</a></li>
+<li><a href="Hyperosmolar%20Hyperglycaemic%20Syndrome%20%28HHS%29.html">Hyperosmolar Hyperglycaemic Syndrome (HHS)</a></li>
+<li>Mixed DKA and HHS</li>
+<li><a href="Diabetic%20ketoalkalosis.html">Diabetic ketoalkalosis</a></li>
+<li><a href="Euglycaemic%20ketoacidosis.html">Euglycaemic ketoacidosis</a></li>
+</ul>
+<h2 id="insulin">Insulin</h2>
+<ul>
+<li><a href="Types%20of%20insulin.html">Types of insulin</a></li>
+<li>[[Insulin switch between basal-bolus and premixed]]</li>
+<li><a href="Titrating%20insulin%20and%20inpatient%20management.html">Titrating insulin and inpatient management</a></li>
+</ul>
+<h2 id="oral-antihyperglycaemic-agents">Oral antihyperglycaemic agents</h2>
+<ul>
+<li><a href="Oral%20antihyperglycaemic%20agents.html">Oral antihyperglycaemic agents</a></li>
+</ul>
+<hr />
+<h1 id="diabetes-case-studies">Diabetes case studies</h1>
+<h2 id="case-1">Case 1</h2>
+<p>You are the evening intern. Mrs B is a 65F admitted with NSTEMI. BG T2Dm usually managed with Jardiamet (metformin, empagliflozin) and Ryzodeg 70/30 20U prebreakfast and 20U predinner. You are called to see her because her post-dinner BGL is 20mM. What other information do you need? What do you do?</p>
+<ol>
+<li>How worried should I be?<ul>
+<li>Check ketones if BGL &gt; 15, especially in T1DM or on SGLT2i (r/o DKA)<ul>
+<li>Normal ketones &lt; 0.5</li>
+<li>Worse case scenario - DKA</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Why is she hyperglycaemic?<ul>
+<li>Did she get her usual dinner insulin</li>
+<li>Is she septic</li>
+<li>Did she just eat before the reading?</li>
+<li>Is this a recurrent pattern - i.e. does her usual insulin need to be adjusted?</li>
+<li>Is she still on her usual medications?</li>
+<li>Has she had any recent hypos?</li>
+</ul>
+</li>
+</ol>
+<p>Management
+1. Short term - <strong>stat dose</strong> of rapid acting insulin if no recent insulin/no hypos
+    - e.g. 4 units novorapid and recheck in 2 hours to ensure downtrending
+    - do NOT use the supplemental - this is for pre-meals ONLY
+2. Long term - ask day team to review
+    - Use of SGLT2i - risks euglycaemic DKA
+    - Consider switching to basal bolus insulin / Endo consult</p>
+<p>Note that increasing ryzodeg at dinner will increase dinner insulin but ALSO basal - and increase drop in BGLs overnight
+<img alt="" src="figs/Pasted%20image%2020230624182350.png" /></p>
+<h2 id="insulin-sensitivity-factor-correction-100total-daily-dose">Insulin sensitivity factor (correction = 100/total daily dose)</h2>
+<p>If Mrs B is on a total of 40U insulin in a day:</p>
+<ul>
+<li>ISF = 100/40 = 2.5<ul>
+<li>i.e. 1 unit of insulin should lower BGL by ~ 2.5</li>
+<li>if aiming to drop BGL by 10 (i.e. from 20 -&gt; 10), then we need 4U of insulin</li>
+</ul>
+</li>
+<li><strong>In insulin sensitive patients (elderly, renal impairment, type 1 diabetics, slim patients on low dose insulin) - reduce dose to avoid hypoglycaemia</strong><ul>
+<li>consider halving what you would normally give</li>
+</ul>
+</li>
+</ul>
+<h2 id="case-2">Case 2</h2>
+<p>You are the night intern. Mr A is 40M admitted with Diabetic foot ulcer for debridement. He is fasting for Sx tomorrow morning. He has b/g of T2DM usually on optisulin 14U nocte and Novorapid 4U with meals. 
+You are called to see him as his BGL is 3.2mM prior to dinner (he is allowed to eat) and nurses aren't sure what to do with his dinner insulin. What else do you want to know? What do you do?</p>
+<ol>
+<li>How worried should I be?<ol>
+<li>Is he alert and able to eat?</li>
+<li>Was he symptomatic? - not feeling hypos is not good sign!</li>
+<li>What treatment has he had? - should have self initiated hypoglycaemia, don't double up!</li>
+</ol>
+</li>
+<li>Why is he hypoglycaemic?<ol>
+<li>Is this a recurrent problem (i.e. issue with insulin dosing?)</li>
+<li>Was there a medication error</li>
+<li>Is he eating less than usual</li>
+<li>Is he more active than usual (e.g. physio)</li>
+</ol>
+</li>
+</ol>
+<p><img alt="" src="figs/Pasted%20image%2020230624182358.png" /></p>
+<ol>
+<li>Is he conscious?<ol>
+<li>Conscious - fast acting carb (e.g. glucogel) followed by long acting carb (sandwich)<ul>
+<li>give short acting carb then recheck in 15 minutes</li>
+<li>If BGL &lt; 4 -&gt; repeat </li>
+<li>If BGL &gt; 4 -&gt; Give long acting carb (risks hyperglycaemia but safer than hypoglycaemia)</li>
+</ul>
+</li>
+<li>Unconscious/poor oral intake<ul>
+<li>IV 25-50mL 50% dextrose (i.e. resus dose)</li>
+<li>If no IV access, 1mg IM glucagon</li>
+<li>Slow glucose<ul>
+<li>5% glucose at 80mL/hr</li>
+<li>10% Glucose at 40mL/hr</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+</ol>
+<p>Other management options - once hypoglycaemic resolved
+1. Once BGL normal, give the dinner insulin as normal
+2. Consider reducing dose (e.g. half dinner insulin) but do not suspend insulin</p>
+<p>Mr A eats a large cake for dessert and now you get called at 10PM for a BGL of 22mM
+What else do you want to know?
+- Ketones - T1DM, risk of DKA
+What do you do?
+- Likely because of the cake, but make sure he actually got night time insulin
+- Total daily insulin dose = 26U
+    - ISF ~ 4
+    - i.e. 3U novorapid should drop insulin from 22 to 10
+    - Avoid large doses due to risk of Hypo
+Mr A is fasting for surgery from midnight. What do you do with his insulin?
+- T1DM need to be kept on basal dose, however should cease bolus insulin and be put onto insulin/dextrose infusion
+- From time of the <strong>first missed meal</strong>, begin insulin/dextrose infusion</p>
+<p>Mr A returns from theatres in the PM. Nurses ask you RE what to do with his insulin dextrose infusion.
+What do you need to know?
+- has anyone written a note?
+- Are they able to eat?
+What do you do?
+- If he can eat
+    - Give usual dinner novorapid with dinner and night time optisulin
+    - Cease insulin/dextrose infusion 1 hour after
+- If he cannot eat
+    - Leave on insulin/dextrose infusion until he is allowed to eat again
+    - Ask med reg/endocrine if unsure</p>
+<p>For type 1 diabetics, ensure:
+1. They have insulin in their system
+2. THey have sugar in their system</p>
+<h2 id="case-3">Case 3</h2>
+<p>You are the evening intern. Mr T admitted with infective exacerbation of COPD. Commenced on Prednisone 50mg PO this AM. BG T2DM managed with metformin and gliclazide. You are called to see him before dinner, when pre-dinner BGL is 18mM. What else do you need to know? What do you do?</p>
+<ol>
+<li>How worried should I be?<ul>
+<li>if clinically well in T2DM, no need to check ketones</li>
+</ul>
+</li>
+<li>Why is he hyperglycaemic?<ul>
+<li>likely steroid induced hyperglycaemia</li>
+</ul>
+</li>
+<li>Other questions<ol>
+<li>How is his diabetes normally? i.e. baseline BGL and HbA1c</li>
+<li>Is he getting his normal medication?<ul>
+<li>make sure not medical error</li>
+</ul>
+</li>
+<li>What steroid dose is he getting tomorrow?<ul>
+<li>make sure endocrine involved if recurrent problem</li>
+</ul>
+</li>
+</ol>
+</li>
+</ol>
+<p>Short term management
+- Short term correctional novorapid reasonable but not essential
+- He will be insulin resistant during the day (i.e. standard 4U novorapid may not touch him) and insulin sensitive during the evening/night when steroids wear off
+    - i.e. when steroids are in his system, insulin may have little effect
+    - however at night with reduced steroid load, insulin may be very sensitive</p>
+<p>Long term management
+- If he is still getting high dose steroids tomorrow, he likely needs regular insulin (e.g. morning protaphane). Either the med reg can help you with this, or the team can consult Endocrine in the morning.</p>
+<h2 id="case-4">Case 4</h2>
+<p>You are the night intern. You call miss C, 39F admitted with pneumonia. BG T1DM normally on MERdtronic 670G insulin pump.
+She begins vomiting in evening. Her BGL is 24 and ketones 4.2.
+What else do you need to know? What do you do?</p>
+<ol>
+<li>How worried should I be about this<ul>
+<li>Worse kase DKA, best case hyperglycaemic with ketosis</li>
+<li>Urgent VBG to determine pH/carb</li>
+<li>Fluid balance and clinical examination</li>
+<li>Needs immediate senior involvement (med reg) for medical management (IVF, K, Insulin), possible HDU/ICU involvement</li>
+</ul>
+</li>
+<li>Why has this occured?<ul>
+<li>Check if cannula is attached to body and the pump is on</li>
+<li>Call the on call endocrinologist</li>
+<li>Likely to be either infection triggered DKA or pump failure - need to switch patient in insulin infusion as per DKA protocol</li>
+</ul>
+</li>
+</ol>
+<h2 id="case-5">Case 5</h2>
+<p>You are the night intern. Code blue called on your ward. You arrive at bedside and nurses report that Mrs S is unresponsive. She is an 86F with Hx of T2DM on insulin (optisulin 10U nocte, novorapid 4 with meals). Her BGL is 1.9. What do you do?</p>
+<ol>
+<li>IM glucagon 1mg STAT (in hypo kit)</li>
+<li>Make sure you find out what caused this - prevent from recurrence</li>
+</ol>
+<p>Next day pre-bed BGL is 3.6, do you give optisulin?
+1. Hypoglycaemia needs treatment - give 15g fast acting carb, followed by a long acting carb
+    - Aim for BGL of &gt;= 7 prior to bed
+2. Do NOT withhold long acting insulin
+    - Risk DKA the next day
+    - Consider dose reduction of 10-20% if patient has had hypos that day or overnight hypos</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyright &copy; 2021 Weber Liu</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../js/jquery-3.6.0.min.js"></script>
+        <script src="../../js/bootstrap.min.js"></script>
+        <script>
             var base_url = "../..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-<script defer="" src="../../js/base.js"></script>
-<script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<script defer="" src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<script defer="" src="../../search/main.js"></script>
-<div aria-hidden="true" aria-labelledby="searchModalLabel" class="modal" id="mkdocs_search_modal" role="dialog" tabindex="-1">
-<div class="modal-dialog modal-lg">
-<div class="modal-content">
-<div class="modal-header">
-<h4 class="modal-title" id="searchModalLabel">Search</h4>
-<button class="close" data-dismiss="modal" type="button"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+        <script src="../../js/base.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <script src="../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
 </div>
-<div class="modal-body">
-<p>From here you can search these documents. Enter your search terms below.</p>
-<form>
-<div class="form-group">
-<input class="form-control" id="mkdocs-search-query" placeholder="Search..." title="Type search term here" type="search"/>
-</div>
-</form>
-<div data-no-results-text="No results found" id="mkdocs-search-results"></div>
-</div>
-<div class="modal-footer">
-</div>
-</div>
-</div>
-</div><div aria-hidden="true" aria-labelledby="keyboardModalLabel" class="modal" id="mkdocs_keyboard_modal" role="dialog" tabindex="-1">
-<div class="modal-dialog">
-<div class="modal-content">
-<div class="modal-header">
-<h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
-<button class="close" data-dismiss="modal" type="button"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
-</div>
-<div class="modal-body">
-<table class="table">
-<thead>
-<tr>
-<th style="width: 20%;">Keys</th>
-<th>Action</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="help shortcut"><kbd>?</kbd></td>
-<td>Open this help</td>
-</tr>
-<tr>
-<td class="next shortcut"><kbd>n</kbd></td>
-<td>Next page</td>
-</tr>
-<tr>
-<td class="prev shortcut"><kbd>p</kbd></td>
-<td>Previous page</td>
-</tr>
-<tr>
-<td class="search shortcut"><kbd>s</kbd></td>
-<td>Search</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="modal-footer">
-</div>
-</div>
-</div>
-</div>
-</body>
+
+    </body>
 </html>
